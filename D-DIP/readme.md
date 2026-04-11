@@ -3,6 +3,7 @@
 ## ¿Qué es?
 
 DIP dice: **"Depende de abstracciones, no de implementaciones concretas"**
+El principio de inversión de dependencias establece que las clases deben depender de abstracciones y no de implementaciones concretas. En este ejemplo, la clase Usuario depende de la interfaz Database y no directamente de MySQLDatabase, haciendo el código más flexible y mantenible.
 
 ## El Problema
 
